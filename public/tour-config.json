@@ -1,0 +1,112 @@
+{
+  "property": {
+    "name": "Aurelia Apartment",
+    "address": "Luxury City Residence",
+    "area": "3,420 sq ft",
+    "rooms": "2 bedrooms / 2 baths",
+    "price": "Private tour",
+    "summary": "An immersive 360 tour through a warm contemporary apartment with marble floors, wood detailing, city views, and a sunset terrace."
+  },
+  "floorPlans": {
+    "twoD": "/panoramas/floorplan-2d.png",
+    "threeD": "/panoramas/floorplan-3d.png"
+  },
+  "rooms": [
+    {
+      "id": "entrance",
+      "title": "Entrance",
+      "name": "Entrance",
+      "level": "Arrival",
+      "image": "/panoramas/entrance.png",
+      "thumbnail": "/panoramas/entrance.png",
+      "position": { "x": 45, "y": 89 },
+      "yaw": 0.05,
+      "connections": ["hallway"],
+      "description": "A composed arrival gallery with warm wood, marble, soft cove lighting, and a direct view into the living space."
+    },
+    {
+      "id": "hallway",
+      "title": "Hallway",
+      "name": "Hallway",
+      "level": "Central Gallery",
+      "image": "/panoramas/hallway.png",
+      "thumbnail": "/panoramas/hallway.png",
+      "position": { "x": 43, "y": 55 },
+      "yaw": 0,
+      "connections": ["entrance", "living-room", "bedroom-1", "bedroom-2", "bathroom"],
+      "description": "A polished circulation spine connecting the private bedrooms, bathrooms, kitchen, and main lounge."
+    },
+    {
+      "id": "living-room",
+      "title": "Living Room",
+      "name": "Living Room",
+      "level": "Social Zone",
+      "image": "/panoramas/living-room.png",
+      "thumbnail": "/panoramas/living-room.png",
+      "position": { "x": 52, "y": 34 },
+      "yaw": -0.15,
+      "connections": ["hallway", "kitchen", "terrace", "bedroom-1", "bedroom-2", "bathroom"],
+      "description": "An expansive living room with a sculptural sectional, marble media wall, dining connection, and balcony outlook."
+    },
+    {
+      "id": "kitchen",
+      "title": "Kitchen & Dining",
+      "name": "Kitchen & Dining",
+      "level": "Social Zone",
+      "image": "/panoramas/kitchen.png",
+      "thumbnail": "/panoramas/kitchen.png",
+      "position": { "x": 61, "y": 68 },
+      "yaw": 0.4,
+      "connections": ["living-room", "hallway"],
+      "description": "A marble island kitchen and dining area with integrated appliances, pendant lighting, and elegant entertaining flow."
+    },
+    {
+      "id": "bedroom-1",
+      "title": "Master Bedroom",
+      "name": "Master Bedroom",
+      "level": "Private Wing",
+      "image": "/panoramas/bedroom-1.png",
+      "thumbnail": "/panoramas/bedroom-1.png",
+      "position": { "x": 18, "y": 36 },
+      "yaw": 0.25,
+      "connections": ["hallway", "living-room", "terrace"],
+      "description": "A serene primary bedroom with warm timber flooring, wardrobe wall, media niche, and balcony-facing windows."
+    },
+    {
+      "id": "bedroom-2",
+      "title": "Bedroom",
+      "name": "Bedroom",
+      "level": "Private Wing",
+      "image": "/panoramas/bedroom-2.png",
+      "thumbnail": "/panoramas/bedroom-2.png",
+      "position": { "x": 78, "y": 37 },
+      "yaw": -0.2,
+      "connections": ["hallway", "living-room"],
+      "description": "A bright secondary bedroom with custom storage, desk, display shelving, and soft playful details."
+    },
+    {
+      "id": "bathroom",
+      "title": "Bathroom",
+      "name": "Bathroom",
+      "level": "Bath Suite",
+      "image": "/panoramas/bathroom.png",
+      "thumbnail": "/panoramas/bathroom.png",
+      "position": { "x": 82, "y": 66 },
+      "yaw": 0.15,
+      "connections": ["hallway", "living-room"],
+      "description": "A spa-like bathroom with luminous stone, glass shower, floating vanity, and integrated shelf lighting."
+    },
+    {
+      "id": "terrace",
+      "title": "Terrace",
+      "name": "Terrace",
+      "level": "Outdoor",
+      "image": "/panoramas/terrace.png",
+      "thumbnail": "/panoramas/terrace.png",
+      "position": { "x": 53, "y": 13 },
+      "yaw": 0,
+      "connections": ["living-room", "bedroom-1"],
+      "description": "A sunset balcony lounge with skyline views, planting, glass railings, and indoor-outdoor living."
+    }
+  ]
+}
